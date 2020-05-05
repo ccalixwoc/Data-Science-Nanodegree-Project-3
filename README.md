@@ -18,6 +18,8 @@ To run this project, I used Python 3 and installed the following libraries:
 - json 
 
 ## File Structure
+```
+
 - app
 | - template
 | |- master.html  # main page of web app
@@ -33,3 +35,5 @@ To run this project, I used Python 3 and installed the following libraries:
 - models
 |- train_classifier.py
 |- classifier.pkl  # saved model 
+```
+
