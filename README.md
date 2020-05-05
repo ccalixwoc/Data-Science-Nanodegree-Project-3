@@ -39,5 +39,9 @@ To run this file, use the 'run.py' file. This will allow you to display the html
 |- train_classifier.py
 |- classifier.pkl  # saved model 
 ```
+## Results
+
+![Classifier](https://github.com/ccalixwoc/Data-Science-Nanodegree-Project-3/blob/master/Classifier-img.JPG)
+
 ## Licensing, Authors and Acknowledgment
 All data was provided through the Data Science Nanodegree.
