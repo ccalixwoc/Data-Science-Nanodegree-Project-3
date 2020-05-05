@@ -3,9 +3,8 @@
 ## Table of Contents
 1. [Installation](#Installation)
 2. [Motivation](#Motivation)
-3. [File Descriptions](#FileDescriptions)
-4. [Results](#Results)
-5. [Licensing, Authors and Acknowledgment](#Licensing,AuthorsandAcknowledgment)
+3. [File Structure](#File Structure)
+4. [Licensing, Authors and Acknowledgment](#Licensing,AuthorsandAcknowledgment)
 
 ## Installation
 To run this project, I used Python 3 and installed the following libraries: 
@@ -17,9 +16,13 @@ To run this project, I used Python 3 and installed the following libraries:
 - flask
 - json 
 
-## File Structure
-```
+## Motivation
+This project consists in a machine learning model that takes disaster-related messages and classifies it into several categories according to their content. Notably, this project showcases my abilities to streamline data preprocessing and machine learning feature engineering through pipelines. This project focuses on natural language processing techniques such as stemming, tokenization, etc.
 
+## File Structure
+To run this file, use the 'run.py' file. This will allow you to display the html site on your browser. The app folder contains all the files related to the frontend and backend of the project. The data folder contains the raw data and a preprocessed database. The models folder contains the machine learning model.
+
+```
 - app
 | - template
 | |- master.html  # main page of web app
@@ -30,10 +33,11 @@ To run this project, I used Python 3 and installed the following libraries:
 |- disaster_categories.csv  # data to process 
 |- disaster_messages.csv  # data to process
 |- process_data.py
-|- InsertDatabaseName.db   # database to save clean data to
+|- Responses.db   # database to save clean data to
 
 - models
 |- train_classifier.py
 |- classifier.pkl  # saved model 
 ```
-
+## Licensing, Authors and Acknowledgment
+All data was provided through the Data Science Nanodegree.
