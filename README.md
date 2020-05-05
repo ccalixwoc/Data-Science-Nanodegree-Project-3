@@ -40,6 +40,7 @@ To run this file, use the 'run.py' file. This will allow you to display the html
 |- classifier.pkl  # saved model 
 ```
 ## Results
+A glance at the classifier. Enter a text message on the textbox and it will classify it into several categories. Below you can see data exploration charts that were created using Plotly.
 
 ![Classifier](https://github.com/ccalixwoc/Data-Science-Nanodegree-Project-3/blob/master/Classifier-img.JPG)
 
